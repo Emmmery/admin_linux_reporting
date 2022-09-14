@@ -134,7 +134,7 @@ UUID=ee8bd24d-5fc3-4664-bfb2-eda3aedc0058 none            swap    sw            
 /home/exports/home   /ahome  none   defaults,bind   0   0
 ```
 
-### Droits 
+## NFS Server - Droits 
 - Création du  compte etu-nfs
 ```
 etu@nfsserver:~$ sudo adduser --home /ahome/etu-nfs etu-nfs

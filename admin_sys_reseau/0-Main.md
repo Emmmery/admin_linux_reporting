@@ -16,3 +16,4 @@ sudo sed -i 's/vm0/newvmname/g' /etc/hostname
 ip nei ls dev sw-vlan52
 
 
+todo
