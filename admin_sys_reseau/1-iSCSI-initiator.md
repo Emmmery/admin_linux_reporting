@@ -85,7 +85,7 @@ etu@initiator:~$ ip a
     inet6 fe80::baad:caff:fefe:3e/64 scope link 
        valid_lft forever preferred_lft forever
 ```
-libération de l'interface
+- libération de l'interface
 ```
 etu@initiator:~$ sudo ifdown --force enp0s1
 ```
@@ -379,7 +379,7 @@ etu@initiator:~$ dpkg -L open-iscsi | grep 'bin'
 /usr/bin/iscsiadm
 ```
 
-## Authentification CHAP
+## Initiator - Authentification CHAP
 - Ajout des identifiants dans le fichier /etc/iscsi/iscsid.conf 
 - Decouverte du nouveau volume
 ```

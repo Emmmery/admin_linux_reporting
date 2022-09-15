@@ -328,7 +328,7 @@ userPassword:: e1NTSEF9d
 
 ```
 
-# Serveur NFS 
+### Serveur NFS 
 
 - Configuration du serveur 
 ```
@@ -524,7 +524,7 @@ session optional pam_oddjob_mkhomedir.so skel=/etc/skel/ umask=0022
 
 ```
 
-## Configuration de l'automontage avec le service LDAP
+### Configuration de l'automontage avec le service LDAP
 ```
 ┌─[etu][server][~]
 └─▪ sudo mv autofs.schema  /etc/ldap/schema/

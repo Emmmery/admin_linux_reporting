@@ -91,7 +91,7 @@ etu@nfsserver:~$  sudo apt install nfs-kernel-server
 ```
 
 - Ajout des instruction d'exportations
-
+```
 etu@nfsserver:~$ cat << EOF | sudo tee -a /etc/exports
 EOF
 /home/exports     172.23.121.166/25(rw,sync,fsid=0,crossmnt,no_subtree_check)
@@ -117,6 +117,7 @@ etu@nfsserver:~$ sudo exportfs
 /home/exports/home
                 2001:678:3fc:79::/64
 /home/exports/home
+```
 
 - Montage local
 ```

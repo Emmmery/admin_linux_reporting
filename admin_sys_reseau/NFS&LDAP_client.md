@@ -1,6 +1,8 @@
 # TP4 NFS & LDAP - G2 Planète Teth
 
-## Client LDAP
+## Client 
+
+### Client LDAP
 
 - Lancement de la VM client (ubuntu client)
 ```
@@ -78,7 +80,7 @@ etu@client:~$ mount | grep nfs
 10.0.49.194:/home on /ahome type nfs4 (rw,relatime,vers=4.2,rsize=131072,wsize=131072,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,clientaddr=10.0.49.195,local_lock=none,addr=10.0.49.194)
 
 ```
-## Configuration client LDAP 
+### Configuration client LDAP 
 
 ```
 etu@client:~$ sudo  aptitude install libnss-ldapd -y
@@ -111,7 +113,7 @@ Password:
 
 ```
 
-## Configuration de l'automontage avec le service LDAP
+ ### Configuration de l'automontage avec le service LDAP
 
 ```
 etu@client:~$ sudo aptitude install autofs-ldap -y
@@ -130,7 +132,7 @@ autofs.schema                                                      100%  774   4
 
 ```
 
-## Accès aux ressources 
+### Accès aux ressources 
 ```
 etu@client:~$  getent passwd
 <snip>
